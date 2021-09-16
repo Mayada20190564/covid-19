@@ -1,0 +1,589 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ 
+.navbar {
+    background-color: transparent;
+}
+.logo h1 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo i{
+    color:red;
+    font-size: 25px;
+}
+.topNav .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.collapse {
+    display: flex;
+    justify-content: left;
+}
+
+.collapse li {
+    margin: 5px 10px;
+}
+
+.collapse li a , .navItems li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.collapse .dont ,.navItems .dont{
+    background-color:#2471A3;
+    border-radius: 35%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align:center;
+}
+.collapse .dont a, .navItems .dont a{
+color: white;
+} 
+.navIcon{
+    display: none;
+}
+.resNav{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgba(46, 64, 83, 0.7);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.navItems{
+    position: relative;
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.navItems li {
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    transition: 0.3s;
+}
+.closeNav{
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+    
+}
+/*   END NAV === */
+.aboutCovid {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: #AEB6BF;
+    
+}
+
+.head {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.head h1 {
+    color: #154360;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.head span {
+    padding-top: 30px;
+}
+
+.head h2 {
+    color: #D98880;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.parag {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.go .btn {
+    background-color: #154360;
+    color: white;
+    margin: 10px 30px;
+    border-radius: 20px;
+}
+
+.go {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.go i{
+    font-size: 25px;
+}
+.go a{
+    color: #CD6155;
+}
+.goAbout {
+    color: #154360;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 20px 0px;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+
+/* END HOME ========== */
+#About{
+    background-color: #AEB6BF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.part1 h5 {
+    color: #922B21;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.part1 h1 {
+    color: #2471A3;
+    font-weight: 700;
+    font-size: 30px;
+}
+.part1 h2{
+    color: #2471A3;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.part1 p
+{
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+}
+.list-group-item a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/* END ABOUT ===== */
+.transmission{
+background-color:#AEB6BF ;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.head-text {
+    margin: auto;
+    padding: 10px 0px;
+}
+.head-text h5{
+    color:#C0392B ;
+    font-weight: 700;
+    font-family: cursive;
+}
+.head-text h2{
+    color: #2471A3;
+    font-weight: 800;
+    font-family: cursive;
+}
+.head-text p{
+    font-weight: 700;
+    color: #2C3E50;
+}
+.line {
+    width: 100%;
+    height: 7px;
+    background-color: darkslategrey;
+    opacity: 0.6;
+    margin: 10px 0px;
+}
+
+/* END TRANSMISSION ==== */
+.QB{
+    background-color: #AEB6BF ;
+    padding: 20px 10px;
+}
+.btn-question {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-question a {
+    background-color: #E74C3C;
+    border-radius: 20px;
+    color: white;
+    font-family: cursive;
+}
+
+/* END Btn QUESTION === */
+#symptoms{
+    background-color:#AEB6BF ;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+#symptoms .card{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.card-body .cHead {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-body img {
+    height: 80px;
+}
+
+.StayHome {
+    padding: 60px 0px;
+}
+.StayHome i{
+    color: #2980B9;
+    font-size: 40px;
+}
+.StayHome p{
+    font-weight: 600;
+}
+/* END SYMPTOMS ============ */
+#prevention{
+    background-color:#AEB6BF ;
+    padding-top: 50px;
+    padding-bottom: 50px;  
+}
+
+.advice {
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.advice .head-img {
+    display: flex;
+    justify-content: center;
+}
+
+.advice img {
+    width: 100px;
+}
+
+.steps {
+    border-radius: 10px;
+    border: solid black 1px;
+    padding: 20px 40px;
+    width: 90%;
+}
+
+.steps li {
+    list-style: none;
+    margin: 15px 5px;
+}
+
+.steps li a {
+    text-decoration: underline;
+}
+.steps li i{
+    color: #D98880;
+}
+.steps li h5{
+    font-weight: 700;
+    font-size: 15px;
+}
+.steps img {
+    height: 100%;
+}
+/* END PREVENTION =========== */
+#washSteps{
+    padding-top: 20px;
+    padding-bottom: 20px;  
+    background-color: #AEB6BF;
+}
+.stepWash {
+    text-align: center;
+}
+.stepWash h5{
+    font-weight: 700;
+    color: red;
+    font-size: 16px;
+}
+.stepWash img {
+    height: 140px;
+}
+#washSteps i{
+    color: #D98880;
+    font-size: 20px;
+}
+#wassSteps a{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* END WASH STEPS ==== */
+#treatment {
+    background-image: url('../img/back4.jpg');
+    background-size: cover;
+    /* background-position:center; */
+    padding-top: 100px;
+    padding-bottom: 100px;  
+}
+#treatment li {
+    list-style: none;
+    margin: 10px 0px;
+}
+
+#treatment .card-body {
+    padding: 70px 20px;
+    background-color:#154360 ;
+    color: white;
+}
+#treatment .head-text h2 , #treatment .head-text p{
+    color: white;
+}
+#treatment h2 {
+    color: #641E16;
+    font-weight: 700;
+    font-family: cursive;
+}
+#treatment i{
+    color: #D98880;
+    font-size: 20px;
+}
+/* END TREATMENT ---- */
+#DoDont{
+    background-color:#AEB6BF ;
+    padding-top: 50px;
+    padding-bottom: 50px;  
+}
+.dont i{
+color: red;
+}
+.do i{
+    color: green;
+}
+.rightcol{
+    float: right;
+    padding-top: 30px;
+}
+.leftcol{
+    float: left;
+    padding-top: 30px;
+}
+.middle{
+    width: 50%;
+    float: left;
+}
+.dont {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.dont img , .do img{
+    height: 80px;
+    border: cornflowerblue solid 1px;
+}
+.dont p , .do p{
+    font-size: 12px;
+    font-weight: 700;
+}
+.do{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+/* END DO & DONT == */
+
+.ubdate{
+    background-color:#AEB6BF ;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+.Card img{
+    border-radius: 5px;
+}
+.Card h5{
+    padding: 20px 0px;
+}
+.footer{
+    background-color: #17202A;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.footer .logo h1{
+    color: white;
+}
+.footer h5{
+    color: white;
+}
+.footer p{
+    color: white;
+    font-weight: 600;
+}
+.links{
+    padding-bottom: 60px;
+}
+.links li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+.links a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #B2BABB;
+}
+.links p, .EndParg p{
+    font-size: 12px;
+    color:#B2BABB;
+}
+.icons i{
+    color: white;
+    font-size: 25px;
+    margin: 10px 10px;
+}
+.endLine{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.EndParg{
+    padding-bottom: 70px;
+}
+/* ======= */
+#FAQ{
+    background-color:#AEB6BF ;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+#FAQ .select {
+    display: flex;
+    justify-content: space-between;
+    border: #154360 solid 1px;
+    padding: 10px 10px;
+    margin: 10px ;
+    border-radius: 5px;
+}
+#FAQ .select p{
+font-size: 14px;
+font-weight: 600;
+color: #154360;
+}
+#FAQ  li{
+    list-style-type: none;
+}
+/* END SELECT DIV ===== */
+.hide{
+    display: none;
+}
+.Questions{
+    border: #154360 solid 1px;
+    border-radius: 5px; 
+    height: auto;  
+    padding: 0px 10px;
+}
+.Questions .Head{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px ;
+}
+.cardLine{
+    height: 1px;
+    background-color: #2980B9;
+}
+.Head h5{
+    color: #154360;
+    font-size: 16px;
+    font-size: 700;
+    padding-bottom: 10px;
+}
+.Head p{
+    font-size: 14px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+
+
+
+.scroll{
+    background-color: #34495E;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 45px;
+    border-radius: 10px;
+}
+.scroll i{
+    color: wheat;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+@media(max-width:950px) {
+    .head span {
+        margin-top: 9px;
+        text-align: center;
+    }
+
+    .go {
+        justify-content: center;
+    }
+
+    .go .btn {
+        display: block;
+    }
+
+    .stat {
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .part1 {
+        text-align: center;
+    }
+    .leftcol{
+        order: 3;
+    }
+    
+    .navIcon{
+        display: block;
+        position: fixed;
+        right: 30px;
+        top: 20px;
+        font-size: 25px;
+    }
+    .navIcon i{
+        font-size: 30px;
+    }
+    
+}
